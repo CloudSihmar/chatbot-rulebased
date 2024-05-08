@@ -28,7 +28,7 @@ class RuleBot:
         will_help = input(
             f"Hi {self.name}, I am a rulebot. Will you help me learn about yourself?\n")
         if will_help in self.negative_responses:
-            print("Ok, have a nice Earth day")
+            print("Ok, have a nice day")
             return
         self.chat()
 
